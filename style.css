@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Oswald", sans-serif;
+  font-stretch: condensed;
+}
+
+.container {
+  background: #f7f7f7;
+  color: #1c1c1c;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 50px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  margin: 20px;
+}
+
+.foto-perfil {
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  margin-left: 16px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.title h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  padding: 30px 10px;
+  background: linear-gradient(200.65deg, #152e4c 25.5%, #6d8cb0 83.19%);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
+  align-items: center;
+}
+
+.projetos-titulo {
+  list-style: none;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.projetos li a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 76.26%, #000000 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2pxsolid #f7f7f7;
+}
